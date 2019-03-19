@@ -1,0 +1,49 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".hgrc"
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "tree-view"
+      "image-view"
+      "linter-eslint"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 15
+    preferredLineLength: 100
+  "exception-reporting":
+    userId: "6199087c-e305-4e3c-96d1-c8aea951ee97"
+  "linter-eslint":
+    semi: "false"
+    semicolons: false
+  "linter-ui-default":
+    panelHeight: 300
+  nuclide:
+    "atom-ide-code-format": {}
+    use:
+      "atom-ide-diagnostics-ui": "never"
+  "prettier-atom":
+    formatOnSaveOptions: {}
+    prettierEslintOptions: {}
+    prettierOptions:
+      jsxBracketSameLine: false
+      parser: "babylon"
+      printWidth: 80
+      semi: false
+      semicolons: false
+      singleQuote: true
+      trailingComma: "es5"
+    semi: false
+    semicolons: false
+    silenceErrors: true
+    useEslint: true

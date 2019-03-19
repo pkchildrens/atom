@@ -1,0 +1,8 @@
+blob-store/
+compile-cache/
+local-history/
+packages/
+recovery/
+storage/
+.node-gyp/
+.apm/
